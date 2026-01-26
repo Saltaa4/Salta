@@ -1,0 +1,19 @@
+Problem 103: 503028. Int or String
+Read one line. If it contains only digits, print “int”. Otherwise, print “str”.
+
+Input format
+A single string.
+
+Output format
+Print “int” if the string has only digits; otherwise print “str”.
+
+Examples
+Input
+123
+Output
+int
+
+Input
+007
+Output
+int

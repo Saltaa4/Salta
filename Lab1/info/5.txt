@@ -1,0 +1,25 @@
+Problem 105: 503030. Division Duel
+In Python, / and // do different things. Read two integers a and b, 
+and output the result of float division followed by integer division.
+
+Input format
+Two integers a and b (b =! 0). (б не равно 0)
+
+Output format
+Two lines: first is the result of integer division, 
+second is the result of float division.
+
+Examples
+Input
+7
+2
+Output
+3
+3.5
+
+Input
+10
+3
+Output
+3
+3.3333333333333335

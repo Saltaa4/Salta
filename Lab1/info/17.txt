@@ -1,0 +1,21 @@
+Problem 117: 503042. The Pythonic Swap
+Read two strings, a and b. Swap their values and print them.
+
+Input format
+Two strings a and b, each on a new line.
+
+Output format
+Swapped strings separated by exactly one space.
+
+Examples
+Input
+A
+B
+Output
+B A
+
+Input
+Hello
+World
+Output
+World Hello

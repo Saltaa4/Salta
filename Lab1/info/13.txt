@@ -1,0 +1,19 @@
+Problem 113: 503038. Reverse Master
+Read a string and print it reversed.
+
+Input format
+A string.
+
+Output format
+The reversed string.
+
+Examples
+Input
+hello
+Output
+olleh
+
+Input
+racecar
+Output
+racecar

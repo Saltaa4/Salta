@@ -1,0 +1,19 @@
+Problem 109: 503034. String Length
+Read a string and output its length.
+
+Input format
+A single string (can contain spaces).
+
+Output format
+An integer representing the length.
+
+Examples
+Input
+Hello
+Output
+5
+
+Input
+Programming is fun
+Output
+18

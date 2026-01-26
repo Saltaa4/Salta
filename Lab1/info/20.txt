@@ -1,0 +1,28 @@
+Problem 120: 503045. Compare Two Numbers
+Read two integers and compare them. Output the larger number. 
+If the numbers are equal, print “equal”.
+
+Input format
+Two integers, each on a new line.
+
+Output format
+The larger number. If the numbers are equal, print “equal”.
+
+Examples
+Input
+1
+2
+Output
+2
+
+Input
+0
+0
+Output
+equal
+
+Input
+-5
+10
+Output
+10

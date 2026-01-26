@@ -1,0 +1,22 @@
+Problem 102: 503024. Custom Separators
+Read two strings and print them on a single line separated by three asterisks ***. 
+Use the sep parameter in the print() function.
+
+Input format
+Two strings, each on a new line.
+
+Output format
+The two strings joined by ***.
+
+Examples
+Input
+A
+B
+Output
+A***B
+
+Input
+Hello
+World
+Output
+Hello***World

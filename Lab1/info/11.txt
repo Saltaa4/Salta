@@ -1,0 +1,19 @@
+Problem 111: 503036. The First and the Last
+Read a string and print its first and last characters.
+
+Input format
+A string of at least 1 character.
+
+Output format
+The first and last characters with exactly one space between them.
+
+Examples
+Input
+A
+Output
+A A
+
+Input
+Hello
+Output
+H o

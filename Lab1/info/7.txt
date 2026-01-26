@@ -1,0 +1,20 @@
+Problem 107: 503032. The Remainder
+Read two integers a and b. Calculate and print the remainder of the division of a by b.
+
+Input format
+Two integers a and b.
+
+Output format
+An integer representing the remainder of the division of a by b.
+
+Examples
+Input
+7
+2
+Output
+1
+Input
+10
+3
+Output
+1

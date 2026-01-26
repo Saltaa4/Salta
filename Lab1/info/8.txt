@@ -1,0 +1,21 @@
+Problem 108: 503033. String Multiplier
+Read a string s and an integer n. Print the string repeated n times.
+
+Input format
+A string s and an integer n on a new line.
+
+Output format
+The string repeated n times.
+
+Examples
+Input
+meow
+3
+Output
+meowmeowmeow
+
+Input
+abc
+2
+Output
+abcabc

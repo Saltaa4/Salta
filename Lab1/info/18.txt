@@ -1,0 +1,19 @@
+Problem 118: 503043. Evenness Checker
+Read an integer and check if it is even or odd.
+
+Input format
+An integer.
+
+Output format
+The string “even” if the integer is even, or “odd” otherwise.
+
+Examples
+Input
+1
+Output
+odd
+
+Input
+2
+Output
+even

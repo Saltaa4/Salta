@@ -1,0 +1,22 @@
+Problem 114: 503039. f-String Greeting
+Read a name (string) and an age (int). 
+Print the message: "Hello, name. You are age years old." using Python f-strings.
+
+Input format
+A string name followed by an integer age on a new line.
+
+Output format
+The formatted message.
+
+Examples
+Input
+Alice
+30
+Output
+Hello, Alice. You are 30 years old.
+
+Input
+Bob
+0
+Output
+Hello, Bob. You are 0 years old.

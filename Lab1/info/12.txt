@@ -1,0 +1,19 @@
+Problem 112: 503037. Basic Slicing
+Read a string and print the characters from index 2 to index 5 (exclusive).
+
+Input format
+A string of at least 6 characters.
+
+Output format
+The substring from index 2 to 5 (exclusive).
+
+Examples
+Input
+abcdef
+Output
+cde
+
+Input
+0123456789
+Output
+234

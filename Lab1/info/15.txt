@@ -1,0 +1,23 @@
+Problem 115: 503040. Membership Test
+Read a long string and a short string. 
+Check if the short string is contained within the long string 
+and print the boolean result.
+
+Input format
+Two strings, each on a new line.
+
+Output format
+True or False.
+
+Examples
+Input
+hello world
+world
+Output
+True
+
+Input
+hello world
+WORLD
+Output
+False

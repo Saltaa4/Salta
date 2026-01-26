@@ -1,0 +1,22 @@
+Problem 104: 503029. Simple Casting
+Read two numbers. Add them together, and print the result. 
+Take into account that input in Python is always in string format.
+
+Input format
+Two integers, each on a new line.
+
+Output format
+The sum of the two integers.
+
+Examples
+Input
+1
+2
+Output
+3
+
+Input
+0
+0
+Output
+0

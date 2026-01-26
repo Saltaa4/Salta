@@ -1,0 +1,19 @@
+Problem 101: 503011. The Greeting Echo
+Read a name from the input and print a greeting in the format “Hello, name!”.   
+
+Input format
+A single string representing a name. If input contains multiple words, add all words to the greeting.
+
+Output format
+A single line: Hello, name!
+
+Examples
+Input
+Nikita
+Output
+Hello, Nikita!
+
+Input
+John Doe
+Output
+Hello, John Doe!

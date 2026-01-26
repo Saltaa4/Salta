@@ -1,0 +1,27 @@
+Problem 116: 503041. String Addition
+Read two strings and combine them into one. Do not add any spaces between them.
+
+Input format
+Two strings, each on a new line.
+
+Output format
+The concatenated string.
+
+Examples
+Input
+Hello
+World
+Output
+HelloWorld
+
+Input
+a
+B
+Output
+aB
+
+Input
+A
+b
+Output
+Ab

@@ -1,0 +1,24 @@
+Problem 119: 503044. Find and Replace
+Read a sentence, a target word, and a replacement word. 
+Replace all occurrences of the target with the replacement.
+
+Input format
+Three lines: the sentence, the target word, and the replacement word, each on a new line.
+
+Output format
+The modified sentence.
+
+Examples
+Input
+hello world
+world
+there
+Output
+hello there
+
+Input
+aaaa
+aa
+b
+Output
+bb
