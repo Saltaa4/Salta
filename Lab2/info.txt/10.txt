@@ -1,0 +1,40 @@
+Problem 210: 73266. Sort
+Given an array, sort it and reverse it.
+
+Input format
+The first line contains an integer n (1 ≤ n ≤ 10^3) — array size. 
+The next line contains n integers a_i (1 ≤ a_i ≤ 10^4) — elements of the array.
+
+Output format
+Sorted array in reversed order.
+
+Examples
+Input
+9
+4 11 1 7 5 1 6 10 8
+Output
+11 10 8 7 6 5 4 1 1 
+
+Input
+4
+10 10 11 13
+Output
+13 11 10 10 
+
+Input
+6
+2 15 3 13 5 13
+Output
+15 13 13 5 3 2 
+
+Input
+4
+3 4 3 6
+Output
+6 4 3 3 
+
+Input
+3
+6 3 2
+Output
+6 3 2 

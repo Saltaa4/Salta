@@ -1,0 +1,30 @@
+Problem 205: 187640. Is it the power of two?
+Given an integer n, print YES if it is a power of two, otherwise, print NO. 
+Note, an integer n is a power of two, if there exists an integer x such that n = 2^x.
+
+Use loops to solve this problem.
+
+Input format
+Integer n (1 ≤ n ≤ 10^8).
+
+Output format
+Print YES is n is the power of two, else print NO.
+
+Examples
+Input
+16
+Output
+YES
+
+Input
+4
+Output
+YES
+
+Input
+3
+Output
+NO
+
+Notes
+In the first example, the answer is YES because 2^4 = 16.

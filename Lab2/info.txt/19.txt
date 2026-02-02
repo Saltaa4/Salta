@@ -1,0 +1,23 @@
+Problem 219: 76938.Aida and korean serials
+Aida is a very good girl, but there is one thing, she is fond of doramas (Korean TV serials). Every day she watches several episodes of some dorama. For each dorama, print how many episodes of this dorama in total she watched in n days. Output the doramas and the number of episodes (print doramas in lexicographical order )
+
+Input format
+First line contains the number of days n <= 100 Next n lines contain one string s and one integer number k, where s - name of the dorama (s.size() < 30) and k - number of episodes.
+
+Output format
+In each line print name of the dorama and numbers of episodes(print doramas in lexicographically order)
+
+Examples
+Input
+5
+HundredMillionStarsFromTheSky 10
+WhereStarsLand 14
+WhereStarsLand 4
+TheThirdCharm 100
+HusbandForHundredDays 1
+
+Output
+HundredMillionStarsFromTheSky 10
+HusbandForHundredDays 1
+TheThirdCharm 100
+WhereStarsLand 18

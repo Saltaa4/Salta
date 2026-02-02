@@ -1,0 +1,18 @@
+Problem 217: 76940.Contacts
+Sanzhar have n telephone numbers in his contact list. Your task is to find how many numbers occurs in contact list exactly three times.
+
+Input format
+First line contains one integer number n (1 ≤ n ≤ 1000). 
+Next n lines contains telephone numbers. Each telephone number has 14 symbols
+
+Output format
+Print the number of telephone numbers which occurs exactly three times in Sanzhar’s contact list.
+
+Examples
+Input
+3
++7707707707707
++7707707707707
++7707707707707
+Output
+1

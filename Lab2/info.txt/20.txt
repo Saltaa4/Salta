@@ -1,0 +1,57 @@
+Problem 220: 196678. MongoDB.
+Do you know what is MongoDB? No? It is a document based key-value database. But what is it document and what does it mean “key-value database”? Okay, let’s explore this on the example.
+
+Imagine you have an empty document. You can insert some key-value pair to this document. However the keys in the document must be unique. So, if you want to insert a new key-value pair and there is already some pair with same key in the document, the value is replaced by a new one.
+
+Also, you can get a value by specifying the key, if such key exists.
+
+So your task is to emulate one document of the MongoDB. Initially, you have an empty documents, and you will be given n commands. 
+There is two types of the commands:
+
+“set key value” - this command requires you to “add” to the document a new “key” - “value” pair.
+
+“get key” - this command requires you to print the value associated with the given “key”, if such key exists. Otherwise, you should print “KE: no key <KEY> found in the document”, where <KEY> should be replace by a given key.
+
+Input format
+The first line of input contains an integer n - the number of commands (1 ≤ n ≤ 10^5). 
+Each of the next n lines contains one of the two types of commands.
+
+Output format
+For each “get” command, print the value associated with given key (or an error in a format specified in the statements if there is no such key in the “document”).
+
+Examples
+Input
+10
+set s0m3_c001_k3y s0m3_c001_v41u3
+set some_key some_other_value
+get some_key
+get no_key
+set no_key no_value
+get no_ke
+get s0m3_c001_k3y
+set s0m3_c001_k3y some_value
+get s0m3_c001_k3y
+get xx_key
+Output
+some_other_value
+KE: no key no_key found in the document
+KE: no key no_ke found in the document
+s0m3_c001_v41u3
+some_value
+KE: no key xx_key found in the document
+
+
+Input
+6
+get aaa
+get bbb
+get ccc
+set aaa sm_vl
+get aa
+get aaa
+Output
+KE: no key aaa found in the document
+KE: no key bbb found in the document
+KE: no key ccc found in the document
+KE: no key aa found in the document
+sm_vl

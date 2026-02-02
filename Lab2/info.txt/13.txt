@@ -1,0 +1,39 @@
+Problem 213: 73273. Is It Prime?
+Given a single number x check if it is a prime or not. A prime is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers.
+
+Input format
+Single integer x (1 ≤ x ≤ 10^6).
+
+Output format
+Yes if it is prime; No otherwise.
+
+Examples
+Input
+48
+Output
+No
+
+Input
+61
+Output
+Yes
+
+Input
+93
+Output
+No
+
+Input
+19
+Output
+Yes
+
+Input
+59
+Output
+Yes
+
+Input
+67
+Output
+Yes

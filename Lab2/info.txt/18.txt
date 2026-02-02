@@ -1,0 +1,18 @@
+Problem 218: 76941.Strings
+You have array which contains n strings, for each string S in our array output first entry of S in the given array(in index).
+
+Input format
+First line contains one integer number n -size of the array, and next n lines contain n strings of the array.(1<=n<=20)
+
+Output format
+For each string S output first entry of S in the given array.(Print strings in lexicographical order)
+
+Examples
+Input
+3
+ab
+ab
+cd
+Output
+ab 1
+cd 3

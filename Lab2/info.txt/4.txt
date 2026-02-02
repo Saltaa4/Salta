@@ -1,0 +1,39 @@
+Problem 204: 421465. Positive Numbers
+Given a sequence consisting of n integers, write a program that outputs the count of the positive numbers in this sequence.
+
+Input format
+The first line contains an integer n (1 ≤ n ≤ 10^5) — the amount of integers. The next line contains a_i (-10^9 ≤ a_i ≤ 10^9 ) — elements of the sequence.
+
+Output format
+Single integer — the count of positive numbers.
+
+Examples
+Input
+3
+-8 -14 2
+Output
+1
+
+Input
+1
+14
+Output
+1
+
+Input
+4
+8 -13 -9 7
+Output
+2
+
+Input
+2
+8 -2
+Output
+1
+
+Input
+3
+-3 -12 -15
+Output
+0

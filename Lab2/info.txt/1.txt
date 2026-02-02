@@ -1,0 +1,35 @@
+Problem 201: 72772. Leap Year
+It is required to determine whether a given year is leap. 
+A year is leap if it is divisible by 4, but not by 100, or if it is divisible by 400.
+
+Input format
+A single number representing the year (1 ≤ year ≤ 30000).
+
+Output format
+Output YES or NO
+
+Examples
+Input
+2007
+Output
+NO
+
+Input
+2000
+Output
+YES
+
+Input
+3005
+Output
+NO
+
+Input
+2012
+Output
+YES
+
+Input
+30000
+Output
+YES

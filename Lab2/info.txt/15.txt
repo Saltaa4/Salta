@@ -1,0 +1,39 @@
+Problem 215: 196660. Attendance.
+Professor of Programming Principles always checks the presence of students using WSP. But today the WSP is down, so everyone must write his own surname at the attendance list.
+
+But some students may have written their surname more than one times. That’s why professor asked for you help. You should count the number of unique surnames in the list.
+
+Input format
+The first line of input contains a number n - number of students’ surnames (1 ≤ n ≤ 10^5). 
+Each of the next n lines contains a students surname s_i (1 ≤ |s_i| ≤ 100).
+
+Output format
+Print the number of unique surnames.
+
+Examples
+Input
+5
+Baisakov
+Akshabayev
+Mukhsimbayev
+Amanov
+Akshabayev
+Output
+4
+
+Input
+4
+SomeSurname
+SomeOtherSurname
+SomeReallylongSurname
+sOMEiNVERSEDsURNAME
+Output
+4
+
+Input
+3
+NotASurname
+NotASurname
+NotASurname
+Output
+1

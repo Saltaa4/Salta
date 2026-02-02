@@ -1,0 +1,40 @@
+Problem 212: 73261. Square
+Given an array of n integers, output the square value of each element.
+
+Input format
+The first line contains the integer n (1 ≤ n ≤ 10^5) — array size. 
+The next line contains n integers a_i (1 ≤ a_i ≤ 10^4) — elements of the array.
+
+Output format
+Changed array.
+
+Examples
+Input
+5
+6 7 15 6 11
+Output
+36 49 225 36 121 
+
+Input
+4
+7 14 9 3
+Output
+49 196 81 9 
+
+Input
+5
+3 4 3 13 5
+Output
+9 16 9 169 25 
+
+Input
+2
+3 5
+Output
+9 25 
+
+Input
+3
+6 12 4
+Output
+36 144 16 

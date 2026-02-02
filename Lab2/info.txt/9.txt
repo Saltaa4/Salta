@@ -1,0 +1,46 @@
+Problem 209: 72780. MaxToMin
+Given an array consisting of integers, write a program that will change all maximal elements to minimal elements of the array. Look at the sample to better understand the conditions.
+
+Input format
+The first line contains an integer n (1 ≤ n ≤ 10^5) — array size. 
+The next line contains n integers a_i (1 ≤ a_i ≤ 10^9 ) — elements of the array.
+
+Output format
+Array with changed elements.
+
+Examples
+Input
+3
+9 5 5
+Output
+5 5 5 
+
+Input
+4
+1 4 14 6
+Output
+1 4 1 6 
+
+Input
+5
+3 1 2 2 5
+Output
+3 1 2 2 1 
+
+Input
+5
+1 7 6 15 5
+Output
+1 7 6 1 5 
+
+Input
+3
+1 14 7
+Output
+1 1 7 
+
+Input
+6
+1 2 3 4 5 5
+Output
+1 2 3 4 1 1 

@@ -1,0 +1,41 @@
+Problem 211: 72871. Reverse elements from exttt{l} to exttt{r}
+You’re given an array consisting of integers. 
+Write a program that will reverse elements on the interval between positions l and r.
+
+Input format
+The first line contains three integers n, l, r, (1 ≤ n ≤ 10^5, 1 ≤ l ≤ r ≤ n) — array size and positions l and r. 
+The next line contains n integers a_i (1 ≤ a_i ≤ 10^9) — elements of the array.
+
+Output format
+Array with reversed elements between positions l and r.
+
+Examples
+Input
+5 2 5
+2 8 10 5 12
+Output
+2 12 5 10 8 
+
+Input
+6 4 6
+8 12 8 12 2 2
+Output
+8 12 8 2 2 12 
+
+Input
+6 4 5
+12 13 15 5 12 13
+Output
+12 13 15 12 5 13 
+
+Input
+9 8 9
+5 12 10 11 14 3 14 1 11
+Output
+5 12 10 11 14 3 14 11 1 
+
+Input
+5 1 5
+11 2 13 9 1
+Output
+1 9 13 2 11 

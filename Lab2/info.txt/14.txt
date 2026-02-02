@@ -1,0 +1,23 @@
+Problem 214: 395033. Most Frequent Element
+Write a program that reads a list of integers into a vector and finds the most frequent element. If there are multiple elements with the same highest frequency, output the smallest among them.
+
+Input format
+The first line contains an integer N (1 ≤ N ≤ 100), representing the number of elements.
+
+The next line contains N integers, where each integer x satisfies -1000 ≤ x ≤ 1000.
+
+Output format
+A single integer representing the most frequent element. If multiple elements have the same frequency, output the smallest one.
+
+Examples
+Input
+7
+4 2 4 3 2 4 3
+Output
+4
+
+Input
+6
+4 1 2 3 3 1
+Output
+1
