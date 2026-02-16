@@ -1,0 +1,34 @@
+Problem 301: 74803. Valid Number
+Given an integer number n, write a function for checking whether this number is valid. A valid number is one consisting of even digits only.
+
+Input format
+One integer — n (1 ≤ n ≤ 10^10).
+
+Output format
+If the number is valid, print Valid; otherwise, print Not valid.
+
+Examples
+Input
+1111
+Output
+Not valid
+
+Input
+2222
+Output
+Valid
+
+Input
+332
+Output
+Not valid
+
+Input
+442862
+Output
+Valid
+
+Input
+31312234
+Output
+Not valid

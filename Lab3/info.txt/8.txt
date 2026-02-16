@@ -1,0 +1,19 @@
+Problem 308: 506939. Bank Account Class
+Create a class Account with owner and balance. Add methods deposit and withdraw. Withdrawals should not be allowed if the amount exceeds the current balance.
+
+Input format
+An initial balance B and a withdrawal amount W.
+
+Output format
+The new balance after withdrawal, or the string ’Insufficient Funds’ if W > B.
+
+Examples
+Input
+100 50
+Output
+50
+
+Input
+100 150
+Output
+Insufficient Funds

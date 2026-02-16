@@ -1,0 +1,52 @@
+Problem 307: 506936. Point Coordinates
+Create a Point class that stores x and y coordinates. Implement the following methods:
+
+show() — prints coordinates in the format (x, y)
+
+move(new_x, new_y) — changes the point’s coordinates to the new values
+
+dist(other_point) — returns the Euclidean distance to another point
+
+Your program should create a point, show its initial coordinates, move it to a new position, show the updated coordinates, create a second point, and print the distance between the moved point and the second point.
+
+Input format
+Three lines, each containing two integers:
+
+Line 1: x_1, y_1 — initial coordinates of the point
+
+Line 2: x_2, y_2 — new coordinates to move the point to
+
+Line 3: x_3, y_3 — coordinates of the second point for distance calculation
+
+Output format
+Three lines:
+
+Line 1: Initial coordinates in (x, y) format
+
+Line 2: Coordinates after move() in (x, y) format
+
+Line 3: Euclidean distance to the second point, formatted to 2 decimal places
+
+Examples
+Input
+0 0
+3 4
+6 8
+Output
+(0, 0)
+(3, 4)
+5.00
+
+Input
+1 1
+2 2
+5 6
+Output
+(1, 1)
+(2, 2)
+5.00
+
+Notes
+Use print(f"{dist:.2f}") to output exactly 2 decimal places.
+
+More info here: https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals

@@ -1,0 +1,39 @@
+Problem 312: 506947. Employee Salary Calculator
+Create an employee hierarchy to calculate total salaries with different bonus structures.
+
+Employee (base class) — stores name and base_salary. The total_salary() method returns the base salary.
+
+Manager — adds bonus_percent. Overrides total_salary() to return base_salary x (1 + bonus_percent/100).
+
+Developer — adds completed_projects. Overrides total_salary() to return base_salary x (1 + completed_projects x 500).
+
+Intern — no bonus. The total_salary() method returns just the base salary.
+
+Given an employee’s information, create the appropriate object and output their details.
+
+Input format
+A single line containing employee information:
+
+For Manager: Manager name base_salary bonus_percent
+
+For Developer: Developer name base_salary completed_projects
+
+For Intern: Intern name base_salary
+
+All numerical values are integers.
+
+Output format
+A single line in the format: Name: [name], Total: [total_salary]
+
+The total salary should be formatted to 2 decimal places.
+
+Examples
+Input
+Manager Alice 5000 10
+Output
+Name: Alice, Total: 5500.00
+
+Input
+Developer Bob 4000 3
+Output
+Name: Bob, Total: 5500.00
