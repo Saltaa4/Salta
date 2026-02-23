@@ -1,0 +1,9 @@
+# Mirror Reflection (reflection point on Ox, so y=0)
+
+x1, y1 = map(float, input().split())
+x2, y2 = map(float, input().split())
+
+t = y1 / (y1 + y2)
+x = x1 + t * (x2 - x1)
+
+print(f"{x:.10f} {0.0:.10f}")
