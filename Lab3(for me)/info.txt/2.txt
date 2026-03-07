@@ -1,0 +1,38 @@
+Problem 302: 194007. Is a Number Usual?
+You’re given a single integer number n, and you need to determine whether this number is usual or not. We call the number usual if the prime factors of this number are limited to 2, 3 and 5. If the given number is usual, print Yes; otherwise, print No.
+
+Important: Solve the problem by implementing a function:
+
+bool isUsual(int num)
+
+Input format
+Integer number n (2 ≤ n ≤ 10^8).
+
+Output format
+Print Yes if the number is usual; otherwise, print No.
+
+Examples
+Input
+6
+Output
+Yes
+
+Input
+15
+Output
+Yes
+
+Input
+21
+Output
+No
+
+Input
+33
+Output
+No
+
+Notes
+For example, 6 is a usual number because it divides by 2 and 3. But 21 is not usual since it includes the prime factor of 7.
+
+ 
