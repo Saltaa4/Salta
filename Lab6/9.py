@@ -1,0 +1,12 @@
+# Dictionary Query with Zip
+
+n = int(input())
+
+keys = input().split()
+values = input().split()
+
+d = dict(zip(keys, values))
+
+query = input()
+
+print(d.get(query, "Not found"))

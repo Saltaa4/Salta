@@ -1,0 +1,6 @@
+# Count Truthy Numbers (map + bool + sum)
+
+n = int(input())
+nums = list(map(int, input().split()))
+
+print(sum(map(bool, nums)))
