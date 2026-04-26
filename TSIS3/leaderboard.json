@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Player",
+        "score": 995,
+        "distance": 990,
+        "coins": 28
+    },
+    {
+        "name": "Player",
+        "score": 979,
+        "distance": 958,
+        "coins": 29
+    },
+    {
+        "name": "Player",
+        "score": 589,
+        "distance": 468,
+        "coins": 20
+    },
+    {
+        "name": "Player",
+        "score": 416,
+        "distance": 293,
+        "coins": 10
+    },
+    {
+        "name": "Player",
+        "score": 236,
+        "distance": 152,
+        "coins": 6
+    },
+    {
+        "name": "Player",
+        "score": 191,
+        "distance": 113,
+        "coins": 6
+    },
+    {
+        "name": "Player",
+        "score": 160,
+        "distance": 131,
+        "coins": 4
+    },
+    {
+        "name": "Player",
+        "score": 151,
+        "distance": 93,
+        "coins": 4
+    },
+    {
+        "name": "Player",
+        "score": 148,
+        "distance": 127,
+        "coins": 4
+    },
+    {
+        "name": "Player",
+        "score": 124,
+        "distance": 128,
+        "coins": 3
+    }
+]
