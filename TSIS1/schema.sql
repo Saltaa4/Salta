@@ -9,7 +9,7 @@ CREATE TABLE groups (
 
 CREATE TABLE contacts (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100) UNIQUE NOT NULL,
+    name VARCHAR(100) UNIQUE NOT NULL,  
     email VARCHAR(100),
     birthday DATE,
     group_id INTEGER REFERENCES groups(id),
@@ -19,7 +19,7 @@ CREATE TABLE contacts (
 CREATE TABLE phones (
     id SERIAL PRIMARY KEY,
     contact_id INTEGER REFERENCES contacts(id) ON DELETE CASCADE,
-    phone VARCHAR(20) NOT NULL,
+    phone VARCHAR(20) NOT NULL UNIQUE,  
     type VARCHAR(10) CHECK (type IN ('home', 'work', 'mobile'))
 );
 
