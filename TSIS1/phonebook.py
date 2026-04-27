@@ -1,6 +1,16 @@
 import csv
 import json
+import re
 from connect import get_connection
+
+
+def normalize_phone(phone):
+    phone = re.sub(r"[^\d+]", "", phone.strip())
+    if re.fullmatch(r"8\d{10}", phone):
+        return "+7" + phone[1:]
+    if re.fullmatch(r"\+7\d{10}", phone):
+        return phone
+    return None
 
 
 def get_group_id(cur, group_name):
@@ -34,7 +44,15 @@ def add_contact():
     email = input("Email: ")
     birthday = input("Birthday (YYYY-MM-DD): ")
     group_name = input("Group (Family/Work/Friend/Other): ")
-    phone = input("Phone: ")
+
+    # ── normalize_phone ──
+    phone_raw = input("Phone (+7XXXXXXXXXX or 8XXXXXXXXXX): ")
+    phone = normalize_phone(phone_raw)
+    if phone is None:
+        print("Invalid phone format. Use +7XXXXXXXXXX or 8XXXXXXXXXX")
+        return
+    # ────────────────────
+
     phone_type = input("Phone type (home/work/mobile): ")
 
     conn = get_connection()
@@ -66,6 +84,7 @@ def add_contact():
                     """
                     INSERT INTO phones(contact_id, phone, type)
                     VALUES (%s, %s, %s)
+                    ON CONFLICT (phone) DO NOTHING
                     """,
                     (contact_id, phone, phone_type)
                 )
@@ -116,7 +135,15 @@ def show_contacts():
 
 def add_phone():
     name = input("Contact name: ")
-    phone = input("New phone: ")
+
+    # ── normalize_phone ──
+    phone_raw = input("New phone (+7XXXXXXXXXX or 8XXXXXXXXXX): ")
+    phone = normalize_phone(phone_raw)
+    if phone is None:
+        print("Invalid phone format. Use +7XXXXXXXXXX or 8XXXXXXXXXX")
+        return
+    # ────────────────────
+
     phone_type = input("Phone type (home/work/mobile): ")
 
     conn = get_connection()
@@ -512,6 +539,7 @@ def import_from_json():
                             """
                             INSERT INTO phones(contact_id, phone, type)
                             VALUES (%s, %s, %s)
+                            ON CONFLICT (phone) DO NOTHING
                             """,
                             (contact_id, phone_item["phone"], phone_item["type"])
                         )
@@ -544,8 +572,15 @@ def import_from_csv():
                         email = row["email"]
                         birthday = row["birthday"]
                         group_name = row["group"]
-                        phone = row["phone"]
                         phone_type = row["type"]
+
+                        # ── normalize_phone ──
+                        phone_raw = row["phone"]
+                        phone = normalize_phone(phone_raw)
+                        if phone is None:
+                            print(f"Skipping invalid phone '{phone_raw}' for {name}")
+                            continue
+                        # ────────────────────
 
                         group_id = get_group_id(cur, group_name)
 
@@ -568,6 +603,7 @@ def import_from_csv():
                             """
                             INSERT INTO phones(contact_id, phone, type)
                             VALUES (%s, %s, %s)
+                            ON CONFLICT (phone) DO NOTHING
                             """,
                             (contact_id, phone, phone_type)
                         )
@@ -604,6 +640,7 @@ def delete_contact():
 
     finally:
         conn.close()
+
 
 def update_phone():
     name = input("Contact name: ")
@@ -644,6 +681,7 @@ def update_phone():
 
     finally:
         conn.close()
+
 
 def main():
     while True:
